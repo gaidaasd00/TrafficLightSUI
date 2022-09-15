@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC08479028D3AB6D00A5F56C /* CircleColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08478F28D3AB6D00A5F56C /* CircleColorView.swift */; };
 		CCFDF25528D25BCA00500771 /* TrafficLightSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFDF25428D25BCA00500771 /* TrafficLightSUIApp.swift */; };
 		CCFDF25728D25BCA00500771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFDF25628D25BCA00500771 /* ContentView.swift */; };
 		CCFDF25928D25BCD00500771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFDF25828D25BCD00500771 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC08478F28D3AB6D00A5F56C /* CircleColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleColorView.swift; sourceTree = "<group>"; };
 		CCFDF25128D25BCA00500771 /* TrafficLightSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLightSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCFDF25428D25BCA00500771 /* TrafficLightSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightSUIApp.swift; sourceTree = "<group>"; };
 		CCFDF25628D25BCA00500771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				CCFDF25428D25BCA00500771 /* TrafficLightSUIApp.swift */,
 				CCFDF25628D25BCA00500771 /* ContentView.swift */,
+				CC08478F28D3AB6D00A5F56C /* CircleColorView.swift */,
 				CCFDF25828D25BCD00500771 /* Assets.xcassets */,
 				CCFDF25A28D25BCD00500771 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				CCFDF25728D25BCA00500771 /* ContentView.swift in Sources */,
 				CCFDF25528D25BCA00500771 /* TrafficLightSUIApp.swift in Sources */,
+				CC08479028D3AB6D00A5F56C /* CircleColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
