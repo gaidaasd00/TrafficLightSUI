@@ -8,21 +8,21 @@
 import SwiftUI
 
 struct CircleColorView: View {
-    var color: Color
-    var isActiv: Bool
+    let color: Color
+    let opacity: Double
     
     var body: some View {
         Circle()
             .foregroundColor(color)
-            .frame(width: 250, height: 150)
-            .overlay(Circle().stroke(Color.white, lineWidth: 4))
-            .shadow(radius: 10)
-            .opacity(isActiv ? 1.0 : 0.2)
+            .frame(width: 100, height: 100)
+            .foregroundColor(color)
+            .opacity(opacity)
+            .overlay(Circle().stroke(.white, lineWidth: 4))
     }
 }
 
 struct CircleColorView_Previews: PreviewProvider {
     static var previews: some View {
-        CircleColorView(color: .red, isActiv: true)
+        CircleColorView(color: .red, opacity: 1)
     }
 }
